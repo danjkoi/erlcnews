@@ -1,0 +1,57 @@
+body{
+    background-image: url("wp11548300.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-ing{
+display: inline-block;
+padding-left: 429px;
+color: #2c2cc7;
+padding-top: auto;
+}
+
+.dot-info{ color: yellow;
+   padding-top: 20px;
+}
+
+.credits{
+    display: flexbox;
+ padding-top: auto;
+    border-radius: 20%;
+    cursor: pointer;
+    width: 200px;
+    background-color: blue; 
+    transition: opacity 0.3s;
+
+}
+
+credits:hover {
+    opacity: 0.8;
+    border-color: black;
+}
+
+.navigation {
+    top: auto;
+}
+
+.dot{
+    width: 200px;
+}
+
+.leo{
+    width: 200px;
+}
+
+.la{
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 700px;
+}
+
+.social {
+    width: 200px;
+    cursor: pointer;
+border-radius: 8px;
+background-color: red;
+}

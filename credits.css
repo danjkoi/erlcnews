@@ -1,0 +1,40 @@
+body{
+
+
+background-color: black;
+transform: pagetran 0.75s;
+}
+
+.title{
+    padding-left: 480px;
+}    
+
+.para{
+    align-self: auto;
+   
+}
+
+.back{
+background-color: green;
+color: blue;
+border-radius: 8px;
+cursor: pointer;
+transition: opacity 3s;
+}
+
+.back:hover {
+
+    opacity: 8px;
+}
+
+@keyframes pagetran {
+ from {
+opacity: 0;
+transform: perspective(10);
+}
+to {
+opacity: 1;
+transform: perspective(0);
+}
+}
+ 

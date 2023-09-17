@@ -1,0 +1,14 @@
+body {
+    background-image: url(360_F_389328016_ak3iUrk15slWfEZdYL96O6eKTUyImDeC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discord{
+    width: 100px;
+    cursor: pointer;
+}
+
+.yt{
+    width: 100px;
+    cursor: pointer;
+}
